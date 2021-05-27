@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <string.h>
 
-double mkcalc(double first, double second, double operation){
+double mkcalc(double first, double second, char operation){
     double n = first;
     double result;
     switch (operation) {
